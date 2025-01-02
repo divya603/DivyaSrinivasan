@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Divya Srinivasan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- TOP NAV BAR -->
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#research">Research</a></li>
+      <!--<li><a href="#interests">Interests</a></li> -->
+    </ul>
+    <ul class="contact-links">
+      <li><a href="mailto:ds7852@nyu.edu">ds7852@nyu.edu</a></li>
+
+      <li><a href="https://www.linkedin.com/in/divya-srinivasan-790ba41bb/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTAINER: Two columns -->
+  <div class="container">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+      <h1 class="name">Divya <br> Srinivasan</h1>
+       <p class="location">- Brooklyn, New York</p>
+      <!-- <h2 class="profile-header">PROFILE</h2> -->
+      <blockquote class="profile-quote">
+        Hi, I'm Divya, a master's student at NYU passionate
+        about leveraging data science, machine learning, and artificial
+        intelligence to solve real-world challenges. With a strong
+        foundation in computer science and hands-on experience in research
+        and projects, I specialize in applying innovative methods to areas
+        like predictive modeling, natural language processing, and deep
+        learning. My long-term goal is to use technology to make a
+        meaningful impact, particularly in advancing healthcare.
+      </blockquote>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+      <div class="image-container">
+        <!-- Replace 'profilepic.jpg' with your actual image file -->
+        <img src="profilepic.jpg" alt="Profile Image" />
+      </div>
+
+      <!-- Contact info as separate lines below the image -->
+
+    </div>
+  </div>
+
+  <!-- SECTIONS TO SCROLL TO -->
+  <section id="education">
+  <h2>Education</h2>
+
+  <div class="education-item">
+    <ul>
+      <li>
+        <h4>New York University</h4>
+        <p>Master of Science in Computer Science</p>
+        <p>2024 – Present</p>
+        <p><strong>Relevant Coursework:</strong></p>
+        Machine Learning, Cognitive Modeling, Data Structures(Fall 2024)
+
+      </li>
+    </ul>
+  </div>
+
+  <div class="education-item">
+    <ul>
+      <li>
+        <h4>Shiv Nadar University</h4>
+        <p>Bachelor of Engineering in Computer Science</p>
+        <p>2020 – 2024</p>
+        <p><strong>Relevant Coursework:</strong></p>Operating Systems, Computer Networks, Theory of Computation, Data Science
+
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
+  <section id="publications">
+  <h2>Publications</h2>
+
+  <!-- PUBLICATION 1 -->
+  <article class="publication">
+    <!-- TITLE -->
+    <h4>Driving Style Profiling using Deep Auto-Encoders
+        for Safety Applications in Urban and Highway Scenarios</h4>
+
+    <!-- PLACE + DATE -->
+    <p>
+      <em>IEEE International Symposium on Measurements &amp; Networking (M&amp;N)</em>
+      &middot; <time datetime="2024-07-06">July 6, 2024</time>
+    </p>
+    <p>
+    <strong>Authors:</strong> Dhanya Krishnan, Divya Srinivasan, Balasubramanian V,
+    Nagaradjane Prabagarane (Sri Sivasubramaniya Nadar College of Engineering, India);
+    Joannes Sam Mertens (University of Catania &amp; CNIT-National Inter-University
+    Consortium for Telecommunications, Italy); Salvatore D. Cafiso, Laura Galluccio,
+    Giacomo Morabito, and Giuseppina Pappalardo (University of Catania, Italy)
+    <br>
+    <strong>Year:</strong> 2024<br>
+    <strong>Conference:</strong> 2024 IEEE International Symposium on Measurements &amp; Networking (M&amp;N)<br>
+    <strong>DOI:</strong>
+    <a href="http://dx.doi.org/10.1109/MN60932.2024.10615387" target="_blank">
+      http://dx.doi.org/10.1109/MN60932.2024.10615387
+    </a>
+  </p>
+
+  </article>
+<br><br>
+  <!-- PUBLICATION 2 -->
+  <article class="publication">
+    <!-- TITLE -->
+    <h4>Medical Dialogue Summarization Using Linear
+        Support Vector Classification Technique</h4>
+
+    <!-- PLACE + DATE -->
+    <p>
+      <em>CLEF 2023: Conference and Labs of the Evaluation Forum</em>
+      &middot; <time datetime="2023-07-25">July 25, 2023</time>
+    </p>
+    <p>
+    <strong>Authors:</strong> Dhanya Krishnan, Divya Srinivasan, and Kavitha Srinivasan
+    <br>
+    <strong>Conference:</strong> Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2023)
+    <br>
+    <strong>Location:</strong> Thessaloniki, Greece
+    <br>
+    <strong>Date:</strong> September 18–21, 2023
+    <br>
+    <strong>Volume:</strong> 3497
+    <br>
+    <strong>Paper #:</strong> 127
+    <br>
+    <strong>DOI:</strong>
+    <a href="https://ceur-ws.org/Vol-3497/paper-127.pdf  " target="_blank">
+      https://ceur-ws.org/Vol-3497/paper-127.pdf
+    </a>
+  </p>
+  </article>
+</section>
+
+
+    <!--<section id="research">
+    <h2>Research</h2>
+    <p>Through my undergrad, I worked on a number of projects in Machine learning, Artificial Intelligence and Data Analytics. These projects helped me understand how predictive models actually worke
+    and how models learn and train from data.</p><br><br><p>During my second year of undergrad, I came upon a project offered by CLEF Initiative (Conference and Labs of the Evaluation Forum).
+    The CLEF Initiative promotes research, innovation, and development by providing an infrastructure for multimodal system testing, model testing, creation of reusable testing models and discussion of results</p>
+    <p>The primary objective of the task was to accurately identify the topic from each snippet of a doctor-patient conversation. Given a fixed list of 20 potential topics or section headers (e.g., Assessment,
+      Diagnosis, Exam, Medications, Past Medical History), the model was designed to determine which category best matched each snippet. By properly classifying these snippets, the aim was to streamline how clinical
+      conversations are organized, making it easier for healthcare professionals and researchers to analyze and review the content.</p><p>In the project, I developed a machine learning pipeline to classify medical
+        dialogue snippets into predefined section headers. Using a CSV dataset of doctor-patient conversations, the data was split into training, validation, and test sets. After performing key preprocessing
+        steps such as digit and punctuation removal, stopword filtering, and lowercase conversion, a linear Support Vector Classifier (SVC) model was trained with random oversampling to address class imbalance.
+        The model was then validated and used to predict the appropriate section headers on unseen test samples, demonstrating a practical approach for organizing and summarizing clinical notes.</p>
+      <p>Three models were developed to predict “Section Headers” from conversation snippets, addressing challenges such as class imbalance and textual complexity:
+  </p><h5>1. Linear SVC with Random Oversampling</h5>
+    <p>
+      This model utilized TF-IDF features to represent text and RandomOverSampler to balance class distributions. A Linear Support Vector Classifier (SVC) was trained for classification.
+    </p>
+    <h5>2. CART with Logistic Regression</h5>
+   <p>
+     Combined Classification and Regression Trees (CART) with logistic regression. Preprocessing included lemmatization, label encoding, and CountVectorizer for feature extraction.
+   </p>
+   <h5>3. Convolutional Neural Networks (CNNs)</h5>
+    <p>
+      Implemented a deep learning model with an embedding layer for word representation, MaxPooling for dimensionality reduction, and dropout layers to enhance regularization.
+    </p>
+    <p>
+    These models integrated preprocessing techniques, feature engineering, and advanced algorithms to optimize predictive performance.
+  </p>
+  <br><br>
+  <p>For my Bachelor thesis, I collaborated with The University of Catania under the guidance of Joannes Sam Mertens, Assistant Professor at University of Catania. This project focused on driver behavior profiling and analysis,
+    a critical aspect of road safety and security applications. Utilizing data collected from sensors installed in vehicles, the project proposed an approach to create unique driving profiles for each user.
+    The research explored the use of deep learning autoencoders, including Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNN), to learn patterns in driving behavior and detect
+    irregularities compared to benchmark models. By analyzing temporal dependencies and unique features, the models assessed similarities and deviations between trained driving profiles and new drivers using
+    the same vehicle. The methodology was validated on two datasets: one collected from bike riders in urban settings and another from car drivers on motorways. Experimental results demonstrated the
+    effectiveness of the approach in both scenarios, highlighting its potential application in various safety contexts and vehicular environments.
+  </section>
+
+
+
+
+
+  <section id="research">
+    <h2>Research</h2>
+
+    <div class="flip-container">
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Medical Dialogue Classification</h3>
+              <ul>
+                <li>
+              During my second year of undergrad, I came upon a project offered by CLEF Initiative (Conference and Labs of the Evaluation Forum).
+              The CLEF Initiative promotes research, innovation, and development by providing an infrastructure for multimodal system testing, model testing, creation of reusable testing models and discussion of results
+            </li><br><li>The primary objective of the task was to accurately identify the topic from each snippet of a doctor-patient conversation. Given a fixed list of 20 potential topics or section headers (e.g., Assessment,
+                Diagnosis, Exam, Medications, Past Medical History), the model was designed to determine which category best matched each snippet. By properly classifying these snippets, the aim was to streamline how clinical
+                conversations are organized, making it easier for healthcare professionals and researchers to analyze and review the content.In the project, I developed a machine learning pipeline to classify medical
+                  dialogue snippets into predefined section headers. </li><br><li>Using a CSV dataset of doctor-patient conversations, the data was split into training, validation, and test sets. After performing key preprocessing
+                  steps such as digit and punctuation removal, stopword filtering, and lowercase conversion, a linear Support Vector Classifier (SVC) model was trained with random oversampling to address class imbalance.
+                  The model was then validated and used to predict the appropriate section headers on unseen test samples, demonstrating a practical approach for organizing and summarizing clinical notes.</li>
+                </ul>
+          </div>
+          <div class="flip-card-back">
+            <h4>Implementation</h4>
+            <p>Three models were developed to predict “Section Headers” from conversation snippets, addressing challenges such as class imbalance and textual complexity:
+        <ul><li><h4>1. Linear SVC with Random Oversampling</h4>-This model utilized TF-IDF features to represent text and RandomOverSampler to balance class distributions. A Linear Support Vector Classifier (SVC) was trained for classification.
+        </li><br>
+          <li><h4>2. CART with Logistic Regression</h4>:Combined Classification and Regression Trees (CART) with logistic regression. Preprocessing included lemmatization, label encoding, and CountVectorizer for feature extraction.
+         </li><br>
+         <li><h4>3. Convolutional Neural Networks (CNNs)</h4>:Implemented a deep learning model with an embedding layer for word representation, MaxPooling for dimensionality reduction, and dropout layers to enhance regularization.
+         </li>
+          <p>
+          These models integrated preprocessing techniques, feature engineering, and advanced algorithms to optimize predictive performance.</ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Bachelor Thesis</h3>
+            <ul><li>
+            For my Bachelor thesis, I collaborated with The University of Catania under the guidance of Dr.Joannes Sam Mertens, Assistant Professor at University of Catania. The project focused on driver behavior profiling and analysis,
+              a critical aspect of road safety and security applications. </li><br><li>Utilizing data collected from sensors installed in vehicles, the project proposed an approach to create unique driving profiles for each user.
+              The research explored the use of deep learning autoencoders, including Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNN), to learn patterns in driving behavior and detect
+              irregularities compared to benchmark models.</li><br><li> By analyzing temporal dependencies and unique features, the models assessed similarities and deviations between trained driving profiles and new drivers using
+              the same vehicle. The methodology was validated on two datasets: one collected from bike riders in urban settings and another from car drivers on motorways. Experimental results demonstrated the
+              effectiveness of the approach in both scenarios, highlighting its potential application in various safety contexts and vehicular environments.</li></ul>
+          </div>
+          <div class="flip-card-back">
+            <h3>Detailed Information</h3>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <section id="research" >
+  <h2>Research</h2>
+
+  <div class="project-box">
+    <h3>Medical Dialogue Classification</h3>
+    <ul>
+      <li>During my second year of undergraduate studies, I came across a project offered by the CLEF Initiative (Conference and Labs of the Evaluation Forum).
+        The CLEF Initiative fosters research, innovation, and development by providing a platform for multimodal system testing, model evaluation, the creation
+        of reusable testing frameworks, and the exchange of results.</li>
+      <li>The primary objective of the task was to accurately identify the topic from each snippet of a doctor-patient conversation. Given a fixed list of 20 potential topics or section headers (e.g., Assessment,
+          Diagnosis, Exam, Medications, Past Medical History), the model was designed to determine which category best matched each snippet. By properly classifying these snippets, the aim was to streamline how clinical
+          conversations are organized, making it easier for healthcare professionals and researchers to analyze and review the content.In the project, I developed a machine learning pipeline to classify medical
+            dialogue snippets into predefined section headers.
+        </li>
+      <li>Using a CSV dataset of doctor-patient conversations, the data was split into training, validation, and test sets. After performing key preprocessing
+      steps such as digit and punctuation removal, stopword filtering, and lowercase conversion, a linear Support Vector Classifier (SVC) model was trained with random oversampling to address class imbalance.
+      The model was then validated and used to predict the appropriate section headers on unseen test samples, demonstrating a practical approach for organizing and summarizing clinical notes.
+        </li></ul>
+
+  </div>
+
+  <div class="project-box">
+    <h3>Driver Behavior Profiling-Undergrad Thesis Work</h3>
+    <ul>
+      <li>For my thesis, I collaborated with The University of Catania under the guidance of Dr.Joannes Sam Mertens, Assistant Professor at University of Catania. The project focused on driver behavior profiling and analysis,
+        a critical aspect of road safety and security applications.
+        </li>
+      <li>
+        Utilizing data collected from sensors installed in vehicles, the project proposed an approach to create unique driving profiles for each user.
+        The research explored the use of deep learning autoencoders, including Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNN), to learn patterns in driving behavior and detect
+        irregularities compared to benchmark models.</li>
+        <li> By analyzing temporal dependencies and unique features, the models assessed similarities and deviations between trained driving profiles and new drivers using
+        the same vehicle. The methodology was validated on two datasets: one collected from bike riders in urban settings and another from car drivers on motorways. Experimental results demonstrated the
+        effectiveness of the approach in both scenarios, highlighting its potential application in various safety contexts and vehicular environments.
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="research" >
+<h2>Work Experience</h2>
+
+<div class="project-box">
+  <h3>Corporate Intern, Kaar Technologies</h3>
+  <ul>
+    <li>During my corporate internship, I worked on building a resume parsing application aimed at extracting structured information from
+    unstructured resumes.</li>
+    <li>By leveraging OCR technology and tools like PyMuPDF, Tiktoken, and LangChain, the application could
+   efficiently process resumes with varied fonts and complex layouts. Additionally, I integrated OpenAI GPT-3.0 to enhance the
+   parsing process, enabling better extraction of key details such as contact information, skills, and work experience. </li>
+    <li>This streamlined the workflow for automated resume processing, improving the accuracy and usability of parsed data for
+    recruitment and analysis purposes.</li>
+  </ul>
+
+
+</div>
+
+
+</section>
+
+
+
+<!--
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <p>Content about your hobbies, side projects...</p>
+  </section> -->
+
+  <footer class="site-footer">
+    <p class="quote">
+      "The only way to do great work is to love what you do." - Steve Jobs
+    </p>
+  </footer>
+
+</body>
+</html>
